@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+ul {
+    list-style-type: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: flex;
+    gap: 32px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column  ;
+}
+
+.bheader,
+.header {
+}
+
+.main-first {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 200px;
+    background-color: #1F2937;
+    padding-bottom: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto;
+    margin-top: 16px;
+    align-items: center;
+}
+
+.header-link {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header-title{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.links {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.bheader {
+    display: flex;
+    margin-top: 100px;
+    padding: 0;
+    gap: 100px;
+}
+
+.bheader-info {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 8px;
+}
+
+.bheader-title{
+    font-family: Roboto;
+    font-weight: 900;
+    color: #f9faf8;
+    font-size: 48px;
+}
+
+.bheader-text {
+    font-family: Roboto;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.bheader-buy {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #e5e7eb;
+}
+
+.bheader-img {
+    display: flex;
+    justify-content: center;
+}
+
+.goty {
+    width: 600px;
+    height: 300px;
+    object-fit: scale-down;
+}
