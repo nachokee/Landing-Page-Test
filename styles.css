@@ -74,8 +74,6 @@ img {
 .bheader-info {
     display: flex;
     flex-direction: column;
-    width: 500px;
-    gap: 10px;
 }
 
 .bheader-title{
@@ -93,14 +91,59 @@ img {
     text-align: center;
 }
 
-.bheader-buy {
-    font-family: Roboto;
-    font-size: 16px;
-    color: #e5e7eb;
-}
-
 .goty {
     width: 600px;
-    height: 320px;
-    
+    height: 330px;
+    border-radius: 7px;
+}
+
+.bheader-img {
+    width: 600px;
+    height: 330px;
+    border-style: solid;
+    border-color: #e5e7eb;
+    border-radius: 9px;
+}
+
+.main-second {
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-main {
+    display: flex;
+    flex-direction: column;
+    padding: 140px 300px;
+    gap: 24px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 250;
+    padding: 0;
+}
+
+.quote-sign {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    color: #1F2937;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.main-third {
+    display: flex;
+    flex-direction: column;
+}
+
+.nominates-container {
+    display: flex;
+
 }
